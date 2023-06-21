@@ -3,7 +3,7 @@ function smallestSubarrayLength(arr: number[], S: number): number {
     let windowSum = 0; 
     let windowStart = 0;
      
-    for (let windowEnd = 0; windowEnd < arr.length; windowEnd++) {
+    for (let windowEnd = 0; windowEnd < arr.length; windowEnd++) { 
       windowSum += arr[windowEnd];
   
       while (windowSum >= S) {

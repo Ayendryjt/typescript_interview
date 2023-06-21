@@ -1,7 +1,7 @@
 function shortestDist(s: string, c: string): number[] {
     const distances: number[] = [];
     let prevIndex = -1;  
-   
+    
     for (let i = 0; i < s.length; i++) {
       if (s[i] === c) {
         prevIndex = i;
