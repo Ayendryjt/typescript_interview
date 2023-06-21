@@ -12,7 +12,7 @@ Explicación: El subarreglo más pequeño con una suma mayor o igual a '7' es [5
 Input: [2, 1, 5, 2, 8], S=7
 
 Output: 1  
-
+ 
 Explicación: El subarreglo más pequeño con una suma mayor o igual a '7' es [8].
  
 Nota: No puedes usar ciclos anidados para resolver el problema.
