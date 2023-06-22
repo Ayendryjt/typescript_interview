@@ -1,6 +1,6 @@
 function countUniqueWays(N: number, X: number[]): number {
     if (N <= 1) {
-      return 1; 
+      return 1;  
     }    
    
     const ways: number[] = new Array(N + 1).fill(0);
